@@ -1,0 +1,27 @@
+{
+  "@context": "http://iiif.io/api/image/3/context.json",
+  "id": "http:/testimage.abc/HCKPoRmGDFU3jb-I/iiif",
+  "type": "ImageService3",
+  "profile": "level0",
+  "protocol": "http://iiif.io/api/image",
+  "tiles": [
+    {
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "width": 512
+    }
+  ],
+  "width": 3496,
+  "height": 2283,
+  "tileFormat": "webp",
+  "extraFormats": [
+    "webp"
+  ],
+  "preferredFormats": [
+    "webp"
+  ]
+}
