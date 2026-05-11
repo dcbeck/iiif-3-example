@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/image/3/context.json",
-  "id": "http:/testimage.abc/HCKPoRmGDFU3jb-I/iiif",
+  "id": "https://dcbeck.github.io/iiif-3-example/iiif",
   "type": "ImageService3",
   "profile": "level0",
   "protocol": "http://iiif.io/api/image",
