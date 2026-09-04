@@ -3,9 +3,7 @@
   "id": "https://dcbeck.github.io/iiif-3-example/iiif/manifest.json",
   "type": "Manifest",
   "label": {
-    "en": [
-      "transparentes_bild"
-    ]
+    "en": ["transparentes_bild"]
   },
   "thumbnail": [
     {
@@ -19,9 +17,7 @@
       "id": "https://dcbeck.github.io/iiif-3-example/iiif/canvas",
       "type": "Canvas",
       "label": {
-        "en": [
-          "transparentes_bild"
-        ]
+        "en": ["transparentes_bild"]
       },
       "height": 1093,
       "width": 820,
@@ -36,6 +32,13 @@
         {
           "id": "https://dcbeck.github.io/iiif-3-example/iiif/canvas/annotation-page",
           "type": "AnnotationPage",
+          "thumbnail": [
+            {
+              "id": "https://dcbeck.github.io/iiif-3-example/iiif/thumbnail.jpg",
+              "type": "Image",
+              "format": "image/jpeg"
+            }
+          ],
           "items": [
             {
               "id": "https://dcbeck.github.io/iiif-3-example/iiif/canvas/painting",
@@ -56,22 +59,15 @@
                     "protocol": "http://iiif.io/api/image",
                     "tiles": [
                       {
-                        "scaleFactors": [
-                          1,
-                          2
-                        ],
+                        "scaleFactors": [1, 2],
                         "width": 512
                       }
                     ],
                     "width": 820,
                     "height": 1093,
                     "tileFormat": "webp",
-                    "preferredFormats": [
-                      "webp"
-                    ],
-                    "extraFormats": [
-                      "webp"
-                    ]
+                    "preferredFormats": ["webp"],
+                    "extraFormats": ["webp"]
                   }
                 ]
               }
