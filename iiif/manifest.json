@@ -1,0 +1,84 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "http://localhost:9000/idovir/1fE2gwg270cP3h8L/iiif/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "transparentes_bild"
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "http://localhost:9000/idovir/1fE2gwg270cP3h8L/iiif/thumbnail.jpg",
+      "type": "Image",
+      "format": "image/jpeg"
+    }
+  ],
+  "items": [
+    {
+      "id": "http://localhost:9000/idovir/1fE2gwg270cP3h8L/iiif/canvas",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "transparentes_bild"
+        ]
+      },
+      "height": 1093,
+      "width": 820,
+      "thumbnail": [
+        {
+          "id": "http://localhost:9000/idovir/1fE2gwg270cP3h8L/iiif/thumbnail.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "http://localhost:9000/idovir/1fE2gwg270cP3h8L/iiif/canvas/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:9000/idovir/1fE2gwg270cP3h8L/iiif/canvas/painting",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "http://localhost:9000/idovir/1fE2gwg270cP3h8L/iiif/canvas",
+              "body": {
+                "id": "http://localhost:9000/idovir/1fE2gwg270cP3h8L/iiif",
+                "type": "Image",
+                "height": 1093,
+                "width": 820,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/3/context.json",
+                    "id": "http://localhost:9000/idovir/1fE2gwg270cP3h8L/iiif",
+                    "type": "ImageService3",
+                    "profile": "level0",
+                    "protocol": "http://iiif.io/api/image",
+                    "tiles": [
+                      {
+                        "scaleFactors": [
+                          1,
+                          2
+                        ],
+                        "width": 512
+                      }
+                    ],
+                    "width": 820,
+                    "height": 1093,
+                    "tileFormat": "webp",
+                    "preferredFormats": [
+                      "webp"
+                    ],
+                    "extraFormats": [
+                      "webp"
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
