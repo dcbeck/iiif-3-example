@@ -2,7 +2,6 @@
   "@context": "http://iiif.io/api/image/3/context.json",
   "id": "https://dcbeck.github.io/iiif-3-example/iiif",
   "type": "ImageService3",
-  "profile": "level0",
   "protocol": "http://iiif.io/api/image",
   "thumbnail": [
     {
@@ -21,5 +20,11 @@
   "height": 1093,
   "tileFormat": "webp",
   "preferredFormats": ["webp"],
-  "extraFormats": ["webp"]
+  "extraFormats": ["webp"],
+  "profile": [
+    "level0",
+    {
+      "formats": ["webp"]
+    }
+  ]
 }
