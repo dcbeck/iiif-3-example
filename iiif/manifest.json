@@ -45,6 +45,13 @@
               "type": "Annotation",
               "motivation": "painting",
               "target": "https://dcbeck.github.io/iiif-3-example/iiif/canvas",
+              "thumbnail": [
+                {
+                  "id": "https://dcbeck.github.io/iiif-3-example/iiif/thumbnail.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg"
+                }
+              ],
               "body": {
                 "id": "https://dcbeck.github.io/iiif-3-example/iiif",
                 "type": "Image",
