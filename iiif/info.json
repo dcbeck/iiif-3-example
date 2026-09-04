@@ -4,22 +4,22 @@
   "type": "ImageService3",
   "profile": "level0",
   "protocol": "http://iiif.io/api/image",
+  "thumbnail": [
+    {
+      "id": "https://dcbeck.github.io/iiif-3-example/iiif/thumbnail.jpg",
+      "type": "Image",
+      "format": "image/jpeg"
+    }
+  ],
   "tiles": [
     {
-      "scaleFactors": [
-        1,
-        2
-      ],
+      "scaleFactors": [1, 2],
       "width": 512
     }
   ],
   "width": 820,
   "height": 1093,
   "tileFormat": "webp",
-  "preferredFormats": [
-    "webp"
-  ],
-  "extraFormats": [
-    "webp"
-  ]
+  "preferredFormats": ["webp"],
+  "extraFormats": ["webp"]
 }
